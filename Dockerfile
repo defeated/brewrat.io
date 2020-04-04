@@ -10,4 +10,6 @@ RUN yarn config set no-progress && \
     yarn global add @vue/cli @vue/cli-service-global && \
     yarn install --non-interactive
 
+USER node
+
 CMD ["yarn", "serve"]
