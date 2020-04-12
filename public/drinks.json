@@ -1,0 +1,33 @@
+{
+  "drinks": [{
+    "id": "10000000-0000-0000-0000-000000000000",
+    "name": "Japanese flash brewed",
+    "subtitle": "Fresh brewed coffee dripped directly onto ice.",
+    "tags": ["cold", "pourover"],
+    "photo": "https://live.staticflickr.com/3845/18641672749_902d233404_b.jpg"
+  }, {
+    "id": "20000000-0000-0000-0000-000000000000",
+    "name": "Espresso shot / Normale",
+    "subtitle": "A concentraded cup of coffee brewed at high pressure.",
+    "tags": ["hot", "espresso"],
+    "photo": "https://live.staticflickr.com/179/440166474_734617bd75_b.jpg"
+  }, {
+    "id": "30000000-0000-0000-0000-000000000000",
+    "name": "Macchiato",
+    "subtitle": "A double shot of espresso 'marked' with a touch of foam.",
+    "tags": ["hot", "espresso", "milk"],
+    "photo": "https://live.staticflickr.com/3469/3762933980_0e92c911b1_h.jpg"
+  }, {
+    "id": "40000000-0000-0000-0000-000000000000",
+    "name": "Cortado / Gibraltar",
+    "subtitle": "A double shot of espresso mixed with equal parts steamed milk.",
+    "tags": ["hot", "espresso", "milk"],
+    "photo": "https://live.staticflickr.com/8369/8465695366_cf5330c2d8_b.jpg"
+  }, {
+    "id": "50000000-0000-0000-0000-000000000000",
+    "name": "Affogato",
+    "subtitle": "A shot of espresso served over ice cream.",
+    "tags": ["cold", "espresso", "milk", "dessert"],
+    "photo": "https://live.staticflickr.com/6083/6146277986_18f988d1fd_b.jpg"
+  }]
+}
