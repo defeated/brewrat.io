@@ -10,6 +10,7 @@ export default new Vuetify({
 
     themes: {
       light: {
+        primary: colors.brown.lighten1
       },
       dark: {
         primary: colors.brown.base

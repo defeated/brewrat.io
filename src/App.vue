@@ -3,7 +3,7 @@
 
     <v-navigation-drawer v-model="drawer" app />
 
-    <v-app-bar app flat dark dense color="primary">
+    <v-app-bar app flat dense color="primary">
       <v-app-bar-nav-icon @click="drawer = !drawer" />
       <v-toolbar-title>BrewRat.io</v-toolbar-title>
 
@@ -18,10 +18,12 @@
       <router-view />
     </v-content>
 
-    <v-footer inset app class="text-center" color="primary lighten-3">
+    <v-footer inset app padless class="text-center" color="primary lighten-3">
       <v-col class="text-center">
-        <img src="@/assets/face.png" height="24" width="24" />
         &copy;
+        <img src="@/assets/face.png" height="24" width="24" />
+        <img src="@/assets/coffee.png" height="24" width="24" />
+        <img src="@/assets/heart.png" height="24" width="24" />
         {{ new Date().getFullYear() }}
       </v-col>
     </v-footer>
